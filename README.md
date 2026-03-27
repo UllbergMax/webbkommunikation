@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # docker-fastapi 
 
 A sample project for deploying to a PaaS Service like Render or CSC Rahti.
@@ -22,3 +23,6 @@ Rename `.env-example` to `.env` to override the `MODE=production`set in the `Doc
 
 To run the container locally:
 `docker-compose up --build`
+=======
+# webbkommunikation
+>>>>>>> f2558b0bdda29ec57a906db3ad38bd07d19588df
