@@ -23,7 +23,7 @@ def get_rooms():
 
 @app.get("/")
 def read_root():
-    return {"msg": "Väölkommen till vårt hotell!"}
+    return {"msg": "Välkommen till vårt hotell!"}
 
 @app.get("/rooms")
 def get_rooms():
@@ -32,4 +32,4 @@ def get_rooms():
 @app.get("/bookings")
 def create_booking():
     # skapa bokningen i databasen, INSERT INTO bookings (room_number, guest_name, check_in_date, check_out_date) VALUES (...)
-    return   
+    return {"msg": "Bokningen har skapats!"}
